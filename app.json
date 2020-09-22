@@ -61,6 +61,8 @@
         }
 
     },
+    
+    http://github.com/heroku/dotnet-buildpack.git
 
  } 
 
