@@ -62,15 +62,15 @@
 
     },
 
-    "buildpacks":[
+  
 
-        {
+    
 
-            "url":"heroku/python"
+        
 
-        }
+        
 
-    ]
+
 
 }
 
