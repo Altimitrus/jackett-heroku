@@ -61,10 +61,16 @@
         }
 
     },
+       "buildpacks":[
+        {
+            "url":"http://github.com/heroku/dotnet-buildpack.git"
+        }
+    ]
     
-    http://github.com/heroku/dotnet-buildpack.git
+}
 
- } 
+
+ 
 
     
 
