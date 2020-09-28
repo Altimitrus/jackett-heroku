@@ -1,0 +1,14 @@
+version: '2'
+services:
+  jackett:
+    image: linuxserver/jackett
+    container_name: jackett
+    environment:
+      - PUID=65534
+      - PGID=65534
+      - TZ=America/Chicago
+    volumes:
+      - "./config:/config"
+    ports:
+      - '9117:9117'
+    restart: unless-stopped
